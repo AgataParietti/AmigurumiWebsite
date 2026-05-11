@@ -10,8 +10,6 @@ out/
 .env.local
 .env.*.local
 
-# large assets (served by Vercel from local /public, not tracked in git)
-public/images/
 *.pdf
 
 # misc
@@ -21,3 +19,5 @@ npm-debug.log*
 
 # claude
 .claude/
+.vercel
+.env*.local
