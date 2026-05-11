@@ -131,19 +131,6 @@ export const lavori: Lavoro[] = [
     venduto: false,
   },
   {
-    id: "27",
-    nome: "Rossella la Mucca",
-    categoria: "animali",
-    immagini: [
-      p("IMG_1726.jpg"),
-      p("IMG_1727.jpg"),
-      p("IMG_1728.jpg"),
-      p("IMG_1729.jpg"),
-    ],
-    descrizione: "Mucca in cotone bianca con macchie rosse, piccola e rotondetta",
-    venduto: false,
-  },
-  {
     id: "28",
     nome: "Elefante Azzurro",
     categoria: "custom",
