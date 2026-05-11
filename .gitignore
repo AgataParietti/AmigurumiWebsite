@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# build output
+.next/
+out/
+
+# env files (contain secrets)
+.env
+.env.local
+.env.*.local
+
+# large assets (served by Vercel from local /public, not tracked in git)
+public/images/
+*.pdf
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# claude
+.claude/

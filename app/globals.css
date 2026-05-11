@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream:       #FDF6EE;
+  --color-rose:        #E8A598;
+  --color-rose-dark:   #C4786A;
+  --color-sage:        #8FAF8A;
+  --color-brown:       #5C3D2E;
+  --color-brown-light: #8C6A5A;
+  --color-white:       #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-brown);
+  font-family: 'Lato', system-ui, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
