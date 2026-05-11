@@ -3,7 +3,6 @@ import { Instagram } from "lucide-react";
 import HeroSection from "@/components/HeroSection";
 import GalleriaGrid from "@/components/GalleriaGrid";
 import ListinoPrezzi from "@/components/ListinoPrezzi";
-import Testimonianze from "@/components/Testimonianze";
 import { lavori } from "@/data/lavori";
 import { config } from "@/data/config";
 
@@ -81,8 +80,6 @@ export default function Home() {
       </section>
 
       <ListinoPrezzi />
-
-      <Testimonianze />
 
       {/* Banner Instagram */}
       {config.social.instagram && (
