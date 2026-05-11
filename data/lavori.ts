@@ -132,15 +132,15 @@ export const lavori: Lavoro[] = [
   },
   {
     id: "27",
-    nome: "Unicorno Arancio",
-    categoria: "personaggi",
+    nome: "Rossella la Mucca",
+    categoria: "animali",
     immagini: [
       p("IMG_1726.jpg"),
       p("IMG_1727.jpg"),
       p("IMG_1728.jpg"),
       p("IMG_1729.jpg"),
     ],
-    descrizione: "Unicorno bianco con criniera arancio e zoccoli gialli, in cotone",
+    descrizione: "Mucca in cotone bianca con macchie rosse, piccola e rotondetta",
     venduto: false,
   },
   {
